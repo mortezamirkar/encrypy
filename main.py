@@ -1,5 +1,9 @@
 import functtions as f
-question=int(input("1-encrypt\n2-decrypt\nEnter 1 or 2: "))
+try:
+ question=int(input("1-encrypt\n2-decrypt\nEnter 1 or 2: "))
+except :
+    print("invalid input!")
+    exit()
 if question==1:
  filename=input("please enter your file name with its format: ")
  f.createKeyFike()
