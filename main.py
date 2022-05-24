@@ -5,10 +5,16 @@ except :
     print("invalid input!")
     exit()
 if question==1:
- filename=input("please enter your file name with its format: ")
+ filename=input("please enter the path of your file: ")
  f.createKeyFike()
- f.encrypt(filename,"key.key")
+ try:
+     f.encrypt(filename,"key.key")
+ except FileNotFoundError as err:
+     print(err)
 else:
-    filename=input("please enter your file name: ")
-    userkey=input("please enter you key file name: ")
-    f.decrypt(filename,userkey)
+    filename=input("please enter the path of your file: ")
+    userkey=input("please enter the path of you key file: ")
+    try:
+     f.decrypt(filename,userkey)
+    except FileNotFoundError as err:
+        print(err)
