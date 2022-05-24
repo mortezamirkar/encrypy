@@ -1,4 +1,3 @@
-<h1 align="center">encrtpy encrtpy</h1>
 <h3 align="center">encryption and decryption tool</h3>
 
 - 📫 How to reach me **morteza.amirkar@protonmail.com**
@@ -15,4 +14,3 @@
 
 <h3 align="left">Support:</h3>
 <p><a href="https://www.buymeacoffee.com/13morteza1A"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="13morteza1A" /></a></p><br><br>
-
